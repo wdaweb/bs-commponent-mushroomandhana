@@ -11,13 +11,6 @@
 }
 
 
-.navbar-toggler-icon {
-  width: 24px;
-  height: 1px;
-  background: #fff;
-  display: none;
-}
-
 .desktop-mt15 {
   margin-top: 9rem;
 }
@@ -35,6 +28,9 @@
   }
 
 @media (max-width: 991.98px) {
+  /* a.navbar-brand {
+    color: #fff;
+  } */
   .desktop-carousel-img {
     display: none;
   }
@@ -50,38 +46,11 @@
 
   .navbar-nav .nav-link.active, .navbar-nav .nav-link.show ,
   .nav-item a {
-    color: #fff;
+    /* color: #fff; */
     text-align: center;
     padding: 0.5rem 0.5rem 1.5rem;
   }
 
-  .navbar-toggler-icon {
-    width: 24px;
-    height: 1px;
-    background: #fff;
-    position: relative;
-    display: block;
-  }
-
-  .navbar-toggler-icon::before {
-    content: '';
-    position: absolute;
-    top: 8px;
-    width: 24px;
-    height: 1px;
-    background: #fff;
-    display: block;
-  }
-
-  .navbar-toggler-icon::after {
-    content: '';
-    position: absolute;
-    bottom: 8px;
-    width: 24px;
-    height: 1px;
-    background: #fff;
-    display: block;
-  }
 
   .navbar.bg-light.nav-link {
     color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
